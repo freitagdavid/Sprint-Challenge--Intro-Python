@@ -21,13 +21,13 @@
 
 class Vehicle:
     def __init__(self):
-        return
+        pass
 
 
 class GroundVehicle(Vehicle):
     def __init__(self):
         super(Vehicle, self)
-        return
+        pass
 
 
 class Car(GroundVehicle):
@@ -45,7 +45,7 @@ class FlightVehicle(Vehicle):
         super(Vehicle, self)
 
 
-class AirPlane(FlightVehicle):
+class Airplane(FlightVehicle):
     def __init__(self):
         super(FlightVehicle)
 
